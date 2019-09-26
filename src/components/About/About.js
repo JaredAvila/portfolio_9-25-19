@@ -5,6 +5,8 @@ import * as styles from "./About.module.css";
 import javaScript from "../../assets/img/javascript.png";
 import nodeJS from "../../assets/img/nodejs.png";
 import reactJS from "../../assets/img/react.png";
+import redux from "../../assets/img/Redux.png";
+import mongo from "../../assets/img/mongoDB.png";
 
 const About = () => {
   return (
@@ -28,8 +30,8 @@ const About = () => {
           <img src={javaScript} alt="" />
           <img src={nodeJS} alt="" />
           <img src={reactJS} alt="" />
-          <img src={reactJS} alt="" />
-          <img src={reactJS} alt="" />
+          <img src={redux} alt="" />
+          <img src={mongo} alt="" />
         </div>
       </div>
     </div>
