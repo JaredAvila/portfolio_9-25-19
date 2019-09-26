@@ -1,0 +1,128 @@
+.Projects {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.Card_container {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 37rem;
+    width: 30rem;
+}
+
+.Card_front, .Card_back, .Card_back2 {
+    height: 37rem;
+    transition: all 800ms ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(17, 17, 17, 0.452);
+}
+
+.Card_back {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    transform: rotateY(180deg);
+    background: linear-gradient( to right bottom, rgb(197, 0, 0), rgb(204, 122, 0));
+}
+
+.Card_back2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    transform: rotateY(180deg);
+    background: linear-gradient( to right bottom, rgb(0, 102, 197), rgb(56, 56, 56));
+}
+
+.Card_container:hover .Card_front {
+    transform: rotateY(-180deg);
+}
+
+.Card_container:hover .Card_back {
+    transform: rotateY(0deg);
+}
+
+.Card_container:hover .Card_back2 {
+    transform: rotateY(0deg);
+}
+
+.Picture {
+    background-size: cover;
+    height: 18rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    background-image: linear-gradient( to right bottom, rgba(255, 0, 0, 0.658), rgba(255, 156, 8, 0.507)), url('../../assets/img/freqfood.png');
+}
+
+.Picture2 {
+    background-size: cover;
+    height: 18rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    background-image: linear-gradient( to right bottom, rgba(0, 102, 197, 0.658), rgba(56, 56, 56, 0.555)), url('../../assets/img/wordzup.png');
+}
+
+.Title {
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(248, 248, 248);
+    position: absolute;
+    top: 8rem;
+    right: 1rem;
+    padding: .5rem 1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-image: linear-gradient( to right bottom, rgba(255, 156, 8), rgba(255, 0, 0));
+}
+
+.Title2 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(248, 248, 248);
+    position: absolute;
+    top: 8rem;
+    right: 1rem;
+    padding: .5rem 1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-image: linear-gradient( to right bottom, rgb(56, 56, 56), rgb(0, 102, 197));
+}
+
+.Details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Details li {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.Details li:not(:last-child) {
+    border-bottom: 1px solid lightgrey;
+}
+
+.Description {
+    padding: 2rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: rgb(248, 248, 248);
+}
+
+.Icon {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    height: 5rem;
+}
