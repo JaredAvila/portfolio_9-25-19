@@ -1,10 +1,5 @@
 .Landing {
-  background: linear-gradient(
-      20deg,
-      rgba(11, 67, 104, 0.767),
-      rgba(67, 116, 93, 0.74)
-    ),
-    url("../../assets/img/back5.gif");
+  background: linear-gradient( 20deg, rgba(11, 67, 104, 0.767), rgba(67, 116, 93, 0.74)), url("../../assets/img/back5.gif");
   /* background: linear-gradient(20deg, rgba(11, 67, 104, 0.767), rgba(67, 116, 93, 0.74)); */
   height: 120vh;
   background-size: cover;
@@ -45,4 +40,3 @@
 .Icon:hover {
   color: rgb(104, 214, 218);
 }
-

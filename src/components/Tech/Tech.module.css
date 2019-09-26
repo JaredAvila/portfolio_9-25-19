@@ -1,0 +1,47 @@
+.Tech {
+    background: linear-gradient(20deg, rgba(11, 67, 104, 0.767), rgba(67, 116, 93, 0.74)), url("../../assets/img/ff8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Box {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    width: 18rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: all 250ms ease;
+}
+
+.Box:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
+
+.Icon {
+    font-size: 5rem;
+    padding: 3rem 0;
+    color: rgb(155, 155, 155);
+}
+
+.Box h3 {
+    margin-bottom: 1.5rem;
+    letter-spacing: .6rem;
+    background-image: linear-gradient( 20deg, rgb(104, 214, 218), rgb(18, 132, 136));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+
+.Box ul {
+    list-style-type: none;
+}
