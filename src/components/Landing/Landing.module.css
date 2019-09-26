@@ -1,12 +1,13 @@
 .Landing {
     background: linear-gradient(20deg, rgba(11, 67, 104, 0.767), rgba(67, 116, 93, 0.74)), url("../../assets/img/back5.gif");
-    height: 95vh;
+    height: 120vh;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    clip-path: polygon(0 0, 100% 0%, 100% 83%, 0 100%);
 }
 
 .Title {
@@ -41,8 +42,8 @@
 
 .Logo {
     position: fixed;
-    top: 4%;
-    left: 2%;
+    top: 5%;
+    left: 3%;
     height: 9rem;
     border-radius: 50%;
 }
