@@ -1,0 +1,65 @@
+.About {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.Heading,
+.Sub {
+  background-image: linear-gradient(
+    20deg,
+    rgb(104, 214, 218),
+    rgb(18, 132, 136)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+.Heading {
+  margin-bottom: 1rem;
+}
+
+.Sub {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+.Boxes {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10rem 0;
+}
+
+.Text {
+  width: 50rem;
+}
+
+.Text h4 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.Text p {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  line-height: 3.4rem;
+}
+
+.Tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 65rem;
+}
+
+.Tech img {
+  height: 20rem;
+}
