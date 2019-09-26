@@ -4,13 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as styles from "./Landing.module.css";
 
 import Button from "../Button/Button";
-import Logo from "../../assets/img/241x241.png";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Landing = () => {
   return (
     <div className={styles.Landing}>
-      <img className={styles.Logo} src={Logo} alt="jaredavila.com" />
       <h1 className={styles.Title}>Jared Avila</h1>
       <h2 className={styles.Sub}>Software Developer</h2>
       <div className={styles.Icons}>
