@@ -1,12 +1,13 @@
 import React from "react";
 
+import Landing from "./components/Landing/Landing";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <ion-icon name="logo-github"></ion-icon>
-      <ion-icon name="logo-linkedin"></ion-icon>
-      <ion-icon name="mail"></ion-icon>
+      <Landing />
+      {/* 
+      <ion-icon name="mail"></ion-icon> */}
     </div>
   );
 }
