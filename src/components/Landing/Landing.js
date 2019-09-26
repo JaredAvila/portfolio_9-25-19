@@ -29,7 +29,7 @@ const Landing = () => {
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
-      <Button url="/">View Projects</Button>
+      <Button url="/#Projects">View Projects</Button>
     </div>
   );
 };

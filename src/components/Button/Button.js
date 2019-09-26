@@ -3,7 +3,12 @@ import * as styles from "./Button.module.css";
 
 const Button = props => {
   return (
-    <a className={styles.Button} href={props.url} rel="noopener noreferrer">
+    <a
+      className={styles.Button}
+      href={props.url}
+      target={props.target}
+      rel="noopener noreferrer"
+    >
       {props.children}
     </a>
   );
