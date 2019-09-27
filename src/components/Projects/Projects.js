@@ -7,6 +7,8 @@ import Pizza from "../../assets/img/pizza.gif";
 import Book from "../../assets/img/book.gif";
 import Burger from "../../assets/img/burger.gif";
 import Heart from "../../assets/img/heart.gif";
+import Tictactoe from "../../assets/img/tictactoe.gif";
+import Music from "../../assets/img/music.gif";
 
 const Projects = () => {
   return (
@@ -136,6 +138,65 @@ const Projects = () => {
             <Button url="https://gifted-volhard-f55eeb.netlify.com">
               Demo
             </Button>
+          </article>
+        </div>
+        <div className={styles.Card_container}>
+          <article className={styles.Card_front}>
+            <div className={styles.Picture5}></div>
+            <img src={Tictactoe} className={styles.Icon} alt="TicTacToe" />
+            <h4 className={styles.Title5}>Tic Tac Toe</h4>
+            <div className={styles.Details}>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Obeject Oriented Progamming</li>
+              </ul>
+            </div>
+          </article>
+          <article className={styles.Card_back5}>
+            <div className={styles.Card_box}>
+              <div className={styles.Description}>
+                <p>
+                  A simple Tic Tac Toe game built with JavaScript using OOP and
+                  modern JavaScript/CSS DOM maniuplation.
+                </p>
+              </div>
+            </div>
+            <Button url="https://reverent-spence-b9638e.netlify.com/">
+              Demo
+            </Button>
+          </article>
+        </div>
+        <div className={styles.Card_container}>
+          <article className={styles.Card_front}>
+            <div className={styles.Picture6}></div>
+            <img
+              src={Music}
+              className={styles.Icon}
+              alt="Cupertino Symphonic Band"
+            />
+            <h4 className={styles.Title6}>Cupertino Band</h4>
+            <div className={styles.Details}>
+              <ul>
+                <li>WorpPress</li>
+                <li>CSS3</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+          </article>
+          <article className={styles.Card_back6}>
+            <div className={styles.Card_box}>
+              <div className={styles.Description}>
+                <p>
+                  A web application built for a client for the Cupertino
+                  Symphonic Band. Built with WordPress so client could manage
+                  site himself. Handled DNS, hosting and deployment as well.
+                </p>
+              </div>
+            </div>
+            <Button url="https://www.cupertinosymphonicband.org/">Demo</Button>
           </article>
         </div>
       </div>
