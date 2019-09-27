@@ -4,6 +4,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding-bottom: 10rem;
 }
 
 .Container h1 {
@@ -20,7 +21,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 100vh;
     width: 70%;
 }
 
@@ -65,15 +65,15 @@
     background: linear-gradient( to right bottom, rgba(0, 197, 89), rgb(62, 150, 120));
 }
 
-.Card_back4 {
-    background: linear-gradient( to right bottom, rgba(177, 197, 0), rgba(131, 130, 80));
+.Card_back6 {
+    background: linear-gradient( to right bottom, rgb(177, 197, 0), rgb(131, 130, 80));
 }
 
 .Card_back5 {
-    background: linear-gradient( to right bottom, rgb(32, 32, 32), rgb(116, 116, 116));
+    background: linear-gradient( to right bottom, rgb(0, 142, 167), rgb(2, 223, 131));
 }
 
-.Card_back6 {
+.Card_back4 {
     background: linear-gradient( to right bottom, rgb(6, 0, 83), rgb(116, 116, 116));
 }
 
@@ -102,19 +102,19 @@
 }
 
 .Picture3 {
-    background-image: linear-gradient( to right bottom, rgba(0, 197, 89, 0.301), rgba(19, 255, 176, 0.281)), url('../../assets/img/burgerTime.png');
-}
-
-.Picture4 {
-    background-image: linear-gradient( to right bottom, rgba(177, 197, 0, 0.233), rgba(131, 130, 80, 0.205)), url('../../assets/img/fcc.png');
-}
-
-.Picture5 {
-    background-image: linear-gradient( to right bottom, rgba(105, 105, 105, 0.568), rgba(116, 116, 116, 0.226)), url('../../assets/img/tictactoe.png');
+    background-image: linear-gradient( to right bottom, rgba(0, 197, 89, 0.089), rgba(0, 207, 62, 0.144)), url('../../assets/img/burgerTime.png');
 }
 
 .Picture6 {
-    background-image: linear-gradient( to right bottom, rgba(116, 116, 116, 0.205), rgba(6, 0, 83, 0.384)), url('../../assets/img/csb.png');
+    background-image: linear-gradient( to right bottom, rgba(200, 214, 71, 0.089), rgba(131, 130, 80, 0.082)), url('../../assets/img/csb.png');
+}
+
+.Picture5 {
+    background-image: linear-gradient( to right bottom, rgba(0, 142, 167, 0.336), rgba(2, 223, 131, 0.226)), url('../../assets/img/tictactoe.png');
+}
+
+.Picture4 {
+    background-image: linear-gradient( to right bottom, rgba(116, 116, 116, 0.205), rgba(6, 0, 83, 0.384)), url('../../assets/img/fcc.png');
 }
 
 .Title, .Title2, .Title3, .Title4, .Title5, .Title6 {
@@ -138,18 +138,18 @@
 }
 
 .Title3 {
-    background-image: linear-gradient( to right bottom, rgb(62, 150, 120), rgba(0, 197, 89));
-}
-
-.Title4 {
-    background-image: linear-gradient( to right bottom, rgba(131, 130, 80), rgba(177, 197, 0));
-}
-
-.Title5 {
-    background-image: linear-gradient( to right bottom, rgb(116, 116, 116), rgb(32, 32, 32));
+    background-image: linear-gradient( to right bottom, rgb(4, 146, 58), rgba(0, 197, 89));
 }
 
 .Title6 {
+    background-image: linear-gradient( to right bottom, rgb(78, 78, 47), rgba(177, 197, 0));
+}
+
+.Title5 {
+    background-image: linear-gradient( to right bottom, rgba(0, 142, 167), rgb(2, 223, 168));
+}
+
+.Title4 {
     background-image: linear-gradient( to right bottom, rgb(116, 116, 116), rgb(6, 0, 83));
 }
 

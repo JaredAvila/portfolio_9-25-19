@@ -105,7 +105,10 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <Button url="https://gracious-clarke-bc9281.netlify.com/">
+            <Button
+              target="_blank"
+              url="https://gracious-clarke-bc9281.netlify.com/"
+            >
               Demo
             </Button>
           </article>
@@ -135,7 +138,10 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <Button url="https://gifted-volhard-f55eeb.netlify.com">
+            <Button
+              target="_blank"
+              url="https://gifted-volhard-f55eeb.netlify.com"
+            >
               Demo
             </Button>
           </article>
@@ -163,7 +169,10 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <Button url="https://reverent-spence-b9638e.netlify.com/">
+            <Button
+              target="_blank"
+              url="https://reverent-spence-b9638e.netlify.com/"
+            >
               Demo
             </Button>
           </article>
@@ -176,7 +185,7 @@ const Projects = () => {
               className={styles.Icon}
               alt="Cupertino Symphonic Band"
             />
-            <h4 className={styles.Title6}>Cupertino Band</h4>
+            <h4 className={styles.Title6}>Cupertino Symphonic</h4>
             <div className={styles.Details}>
               <ul>
                 <li>WorpPress</li>
@@ -196,7 +205,12 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <Button url="https://www.cupertinosymphonicband.org/">Demo</Button>
+            <Button
+              target="_blank"
+              url="https://www.cupertinosymphonicband.org/"
+            >
+              Demo
+            </Button>
           </article>
         </div>
       </div>
