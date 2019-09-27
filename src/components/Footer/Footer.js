@@ -13,13 +13,21 @@ const Footer = () => {
   return (
     <div className={styles.Footer}>
       <div className={styles.Links}>
-        <a href="/">
+        <a
+          href="https://github.com/JaredAvila"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon className={styles.Icon} icon={faGithub} /> Github
         </a>
-        <a href="/">
+        <a
+          href="https://www.linkedin.com/in/jared-avila/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon className={styles.Icon} icon={faLinkedin} /> LinkedIn
         </a>
-        <a href="/">
+        <a href="/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className={styles.Icon} icon={faScroll} /> Resume
         </a>
       </div>

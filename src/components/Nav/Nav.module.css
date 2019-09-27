@@ -1,8 +1,49 @@
-.Logo {
+.Container {
   position: fixed;
   top: 6%;
   left: 3%;
   height: 9rem;
-  border-radius: 50%;
+  width: 9rem;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
   z-index: 1000;
+}
+
+.Logo {
+  height: 9rem;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 200;
+}
+
+.GitHub, .LinkedIn, .Scroll {
+  color: rgb(104, 214, 218);
+  font-size: 5rem;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  visibility: hidden;
+  padding: 1rem 0 0 1.5rem;
+  transition: all 300ms ease;
+}
+
+.Container:hover {
+  height: 37rem;
+}
+
+.Container:hover .GitHub {
+  transform: translateY(10rem);
+  visibility: visible;
+}
+
+.Container:hover .LinkedIn {
+  transform: translateY(20rem);
+  visibility: visible;
+}
+
+.Container:hover .Scroll {
+  transform: translateY(30rem);
+  visibility: visible;
 }

@@ -4,6 +4,7 @@
     color: rgb(249, 249, 249);
     justify-content: space-evenly;
     align-items: flex-start;
+    cursor: default;
     padding: 8rem;
 }
 
