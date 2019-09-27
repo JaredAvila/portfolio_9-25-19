@@ -19,4 +19,10 @@ body {
   color: rgb(65, 65, 65);
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    padding: 2rem;
+  }
+}
+
 /*First break point at 1150px*/

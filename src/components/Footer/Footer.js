@@ -31,7 +31,9 @@ const Footer = () => {
           <FontAwesomeIcon className={styles.Icon} icon={faScroll} /> Resume
         </a>
       </div>
-      <img className={styles.Logo} src={Logo} alt="JaredAvila.com" />
+      <a href="#top">
+        <img className={styles.Logo} src={Logo} alt="JaredAvila.com" />
+      </a>
       <div className={styles.Links}>
         <p className={styles.SiteName}>JaredAvila Designs |</p>
         <p>

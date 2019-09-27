@@ -8,7 +8,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Landing = () => {
   return (
-    <div className={styles.Landing}>
+    <div className={styles.Landing} id="top">
       <h1 className={styles.Title}>Jared Avila</h1>
       <h2 className={styles.Sub}>Software Developer</h2>
       <div className={styles.Icons}>

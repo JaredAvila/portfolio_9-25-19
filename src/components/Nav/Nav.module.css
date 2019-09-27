@@ -18,7 +18,9 @@
   z-index: 200;
 }
 
-.GitHub, .LinkedIn, .Scroll {
+.GitHub,
+.LinkedIn,
+.Scroll {
   color: rgb(104, 214, 218);
   font-size: 5rem;
   position: absolute;
@@ -46,4 +48,47 @@
 .Container:hover .Scroll {
   transform: translateY(30rem);
   visibility: visible;
+}
+
+.GitHub:hover,
+.LinkedIn:hover,
+.Scroll:hover {
+  color: rgb(0, 122, 122);
+}
+
+@media only screen and (max-width: 1500px) {
+  .Container {
+    left: 4%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Container {
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Container {
+    top: 4%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Container {
+    top: 3%;
+    left: 4%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Container {
+    top: 2%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Container {
+    top: 1.5%;
+  }
 }
