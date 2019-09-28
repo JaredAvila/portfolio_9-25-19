@@ -16,22 +16,32 @@ const Nav = () => {
         <img className={styles.Logo} src={Logo} alt="jaredavila.com" />
       </a>
 
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.ResContainer}
+      >
         <FontAwesomeIcon className={styles.Scroll} icon={faScroll} />
+        <p className={styles.Res}>Resume</p>
       </a>
       <a
         href="https://www.linkedin.com/in/jared-avila/"
         target="_blank"
         rel="noopener noreferrer"
+        className={styles.LinkedContainer}
       >
         <FontAwesomeIcon className={styles.LinkedIn} icon={faLinkedin} />
+        <p className={styles.Linked}>LinkedIn</p>
       </a>
       <a
         href="https://github.com/JaredAvila"
         target="_blank"
         rel="noopener noreferrer"
+        className={styles.GitContainer}
       >
         <FontAwesomeIcon className={styles.GitHub} icon={faGithub} />
+        <p className={styles.Git}>GitHub</p>
       </a>
     </div>
   );

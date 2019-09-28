@@ -10,11 +10,7 @@
 .Container h1 {
   font-size: 6rem;
   margin: 8rem 0 10rem 0;
-  background-image: linear-gradient(
-    20deg,
-    rgb(104, 214, 218),
-    rgb(18, 132, 136)
-  );
+  background-image: linear-gradient( 20deg, rgb(104, 214, 218), rgb(18, 132, 136));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -37,13 +33,7 @@
   margin: 2.5rem;
 }
 
-.Card_front,
-.Card_back,
-.Card_back2,
-.Card_back3,
-.Card_back4,
-.Card_back5,
-.Card_back6 {
+.Card_front, .Card_back, .Card_back2, .Card_back3, .Card_back4, .Card_back5, .Card_back6 {
   height: 35rem;
   transition: all 800ms ease;
   position: absolute;
@@ -56,12 +46,7 @@
   box-shadow: 0 1.5rem 4rem rgba(17, 17, 17, 0.452);
 }
 
-.Card_back,
-.Card_back2,
-.Card_back3,
-.Card_back4,
-.Card_back5,
-.Card_back6 {
+.Card_back, .Card_back2, .Card_back3, .Card_back4, .Card_back5, .Card_back6 {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -69,72 +54,38 @@
 }
 
 .Card_back {
-  background: linear-gradient(
-    to right bottom,
-    rgb(197, 0, 0),
-    rgb(204, 122, 0)
-  );
+  background: linear-gradient( to right bottom, rgb(197, 0, 0), rgb(204, 122, 0));
 }
 
 .Card_back2 {
-  background: linear-gradient(
-    to right bottom,
-    rgb(0, 102, 197),
-    rgb(143, 143, 143)
-  );
+  background: linear-gradient( to right bottom, rgb(0, 102, 197), rgb(143, 143, 143));
 }
 
 .Card_back3 {
-  background: linear-gradient(
-    to right bottom,
-    rgba(0, 197, 89),
-    rgb(62, 150, 120)
-  );
+  background: linear-gradient( to right bottom, rgba(0, 197, 89), rgb(62, 150, 120));
 }
 
 .Card_back6 {
-  background: linear-gradient(
-    to right bottom,
-    rgb(177, 197, 0),
-    rgb(131, 130, 80)
-  );
+  background: linear-gradient( to right bottom, rgb(177, 197, 0), rgb(131, 130, 80));
 }
 
 .Card_back5 {
-  background: linear-gradient(
-    to right bottom,
-    rgb(0, 142, 167),
-    rgb(2, 223, 131)
-  );
+  background: linear-gradient( to right bottom, rgb(0, 142, 167), rgb(2, 223, 131));
 }
 
 .Card_back4 {
-  background: linear-gradient(
-    to right bottom,
-    rgb(6, 0, 83),
-    rgb(116, 116, 116)
-  );
+  background: linear-gradient( to right bottom, rgb(6, 0, 83), rgb(116, 116, 116));
 }
 
 .Card_container:hover .Card_front {
   transform: rotateY(-180deg);
 }
 
-.Card_container:hover .Card_back,
-.Card_container:hover .Card_back2,
-.Card_container:hover .Card_back3,
-.Card_container:hover .Card_back4,
-.Card_container:hover .Card_back5,
-.Card_container:hover .Card_back6 {
+.Card_container:hover .Card_back, .Card_container:hover .Card_back2, .Card_container:hover .Card_back3, .Card_container:hover .Card_back4, .Card_container:hover .Card_back5, .Card_container:hover .Card_back6 {
   transform: rotateY(0deg);
 }
 
-.Picture,
-.Picture2,
-.Picture3,
-.Picture4,
-.Picture5,
-.Picture6 {
+.Picture, .Picture2, .Picture3, .Picture4, .Picture5, .Picture6 {
   background-size: cover;
   height: 18rem;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -143,65 +94,30 @@
 }
 
 .Picture {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(255, 0, 0, 0.219),
-      rgba(255, 156, 8, 0.233)
-    ),
-    url("../../assets/img/freqfood.png");
+  background-image: linear-gradient( to right bottom, rgba(255, 0, 0, 0.219), rgba(255, 156, 8, 0.233)), url("../../assets/img/freqfood.png");
 }
 
 .Picture2 {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 102, 197, 0.39),
-      rgba(56, 56, 56, 0.404)
-    ),
-    url("../../assets/img/wordzup.png");
+  background-image: linear-gradient( to right bottom, rgba(0, 102, 197, 0.39), rgba(56, 56, 56, 0.404)), url("../../assets/img/wordzup.png");
 }
 
 .Picture3 {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 197, 89, 0.089),
-      rgba(0, 207, 62, 0.144)
-    ),
-    url("../../assets/img/burgerTime.png");
+  background-image: linear-gradient( to right bottom, rgba(0, 197, 89, 0.089), rgba(0, 207, 62, 0.144)), url("../../assets/img/burgerTime.png");
 }
 
 .Picture6 {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(200, 214, 71, 0.089),
-      rgba(131, 130, 80, 0.082)
-    ),
-    url("../../assets/img/csb.png");
+  background-image: linear-gradient( to right bottom, rgba(200, 214, 71, 0.089), rgba(131, 130, 80, 0.082)), url("../../assets/img/csb.png");
 }
 
 .Picture5 {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 142, 167, 0.336),
-      rgba(2, 223, 131, 0.226)
-    ),
-    url("../../assets/img/tictactoe.png");
+  background-image: linear-gradient( to right bottom, rgba(0, 142, 167, 0.336), rgba(2, 223, 131, 0.226)), url("../../assets/img/tictactoe.png");
 }
 
 .Picture4 {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(116, 116, 116, 0.205),
-      rgba(6, 0, 83, 0.384)
-    ),
-    url("../../assets/img/fcc.png");
+  background-image: linear-gradient( to right bottom, rgba(116, 116, 116, 0.205), rgba(6, 0, 83, 0.384)), url("../../assets/img/fcc.png");
 }
 
-.Title,
-.Title2,
-.Title3,
-.Title4,
-.Title5,
-.Title6 {
+.Title, .Title2, .Title3, .Title4, .Title5, .Title6 {
   font-size: 3rem;
   font-weight: 100;
   color: rgb(248, 248, 248);
@@ -214,51 +130,27 @@
 }
 
 .Title {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(255, 156, 8),
-    rgba(255, 0, 0)
-  );
+  background-image: linear-gradient( to right bottom, rgba(255, 156, 8), rgba(255, 0, 0));
 }
 
 .Title2 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(102, 102, 102),
-    rgb(0, 102, 197)
-  );
+  background-image: linear-gradient( to right bottom, rgb(102, 102, 102), rgb(0, 102, 197));
 }
 
 .Title3 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(4, 146, 58),
-    rgba(0, 197, 89)
-  );
+  background-image: linear-gradient( to right bottom, rgb(4, 146, 58), rgba(0, 197, 89));
 }
 
 .Title6 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(78, 78, 47),
-    rgba(177, 197, 0)
-  );
+  background-image: linear-gradient( to right bottom, rgb(78, 78, 47), rgba(177, 197, 0));
 }
 
 .Title5 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(0, 142, 167),
-    rgb(2, 223, 168)
-  );
+  background-image: linear-gradient( to right bottom, rgba(0, 142, 167), rgb(2, 223, 168));
 }
 
 .Title4 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(116, 116, 116),
-    rgb(6, 0, 83)
-  );
+  background-image: linear-gradient( to right bottom, rgb(116, 116, 116), rgb(6, 0, 83));
 }
 
 .Details ul {
@@ -300,23 +192,10 @@
     width: 28rem;
     margin: 1.7rem;
   }
-
-  .Card_front,
-  .Card_back,
-  .Card_back2,
-  .Card_back3,
-  .Card_back4,
-  .Card_back5,
-  .Card_back6 {
+  .Card_front, .Card_back, .Card_back2, .Card_back3, .Card_back4, .Card_back5, .Card_back6 {
     height: 30rem;
   }
-
-  .Title,
-  .Title2,
-  .Title3,
-  .Title4,
-  .Title5,
-  .Title6 {
+  .Title, .Title2, .Title3, .Title4, .Title5, .Title6 {
     font-size: 2.5rem;
   }
   .Details li {
@@ -324,15 +203,16 @@
     font-size: 1.2rem;
     padding: 0.7rem;
   }
-  .Picture,
-  .Picture2,
-  .Picture3,
-  .Picture4,
-  .Picture5,
-  .Picture6 {
+  .Picture, .Picture2, .Picture3, .Picture4, .Picture5, .Picture6 {
     height: 15rem;
   }
+  .Description {
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
 }
+
 @media only screen and (max-width: 1121px) {
   .Projects {
     width: 100%;
@@ -342,23 +222,10 @@
     width: 28rem;
     margin: 1.7rem;
   }
-
-  .Card_front,
-  .Card_back,
-  .Card_back2,
-  .Card_back3,
-  .Card_back4,
-  .Card_back5,
-  .Card_back6 {
+  .Card_front, .Card_back, .Card_back2, .Card_back3, .Card_back4, .Card_back5, .Card_back6 {
     height: 30rem;
   }
-
-  .Title,
-  .Title2,
-  .Title3,
-  .Title4,
-  .Title5,
-  .Title6 {
+  .Title, .Title2, .Title3, .Title4, .Title5, .Title6 {
     font-size: 2.5rem;
   }
   .Details li {
@@ -366,12 +233,7 @@
     font-size: 1.2rem;
     padding: 0.7rem;
   }
-  .Picture,
-  .Picture2,
-  .Picture3,
-  .Picture4,
-  .Picture5,
-  .Picture6 {
+  .Picture, .Picture2, .Picture3, .Picture4, .Picture5, .Picture6 {
     height: 15rem;
   }
 }
