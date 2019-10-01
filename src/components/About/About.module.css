@@ -5,13 +5,8 @@
   margin-top: 10rem;
 }
 
-.Heading,
-.Sub {
-  background-image: linear-gradient(
-    20deg,
-    rgb(104, 214, 218),
-    rgb(18, 132, 136)
-  );
+.Heading, .Sub {
+  background-image: linear-gradient( 20deg, rgb(104, 214, 218), rgb(18, 132, 136));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -67,4 +62,41 @@
 
 .Tech img:hover {
   transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1200px) {
+  .Heading {
+    font-size: 3.5rem;
+  }
+  .Sub {
+    font-size: 2rem;
+  }
+  .Boxes {
+    padding: 5rem 0;
+  }
+  .Text, .Tech {
+    width: 35rem;
+  }
+  .Tech img {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Text, .Tech {
+    width: 25rem;
+  }
+  .Tech img {
+    height: 12rem;
+    width: 12rem;
+  }
+  .Text h4 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+  .Text p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+  }
 }
