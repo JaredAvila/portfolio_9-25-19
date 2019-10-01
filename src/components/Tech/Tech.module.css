@@ -76,6 +76,12 @@
 
 @media only screen and (max-width: 880px) {
     .Tech {
+        padding: 25rem 15rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .Tech {
         padding: 25rem 5rem;
     }
 }
