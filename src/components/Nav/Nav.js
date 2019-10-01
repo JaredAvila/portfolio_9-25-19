@@ -12,10 +12,7 @@ import Logo from "../../assets/img/241x241.png";
 const Nav = () => {
   return (
     <div className={styles.Container}>
-      <a href="#top">
-        <img className={styles.Logo} src={Logo} alt="jaredavila.com" />
-      </a>
-
+      <img className={styles.Logo} src={Logo} alt="jaredavila.com" />
       <a
         href="/"
         target="_blank"

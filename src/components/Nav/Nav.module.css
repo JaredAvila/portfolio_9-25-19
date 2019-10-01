@@ -102,18 +102,23 @@
 @media only screen and (max-width: 700px) {
   .Container {
     top: 3%;
-    left: 4%;
+    left: 5%;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .Container {
     top: 2%;
+    left: 5%;
+  }
+  .Logo {
+    height: 7rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .Container {
-    top: 1.5%;
+    top: 2%;
+    left: 6%;
   }
 }

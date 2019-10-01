@@ -20,3 +20,16 @@
   background-color: rgb(231, 231, 231);
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 500px) {
+  .Button {
+    padding: 1.3rem 2.3rem;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    box-shadow: 0 0.1rem 1.5rem rgba(34, 34, 34, 0.795);
+    transition: all 200ms ease;
+  }
+}

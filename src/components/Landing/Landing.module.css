@@ -40,3 +40,21 @@
 .Icon:hover {
   color: rgb(104, 214, 218);
 }
+
+@media only screen and (max-width: 600px) {
+  .Title {
+    font-size: 7rem;
+  }
+  .Sub {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .Title {
+    font-size: 4.3rem;
+  }
+  .Sub {
+    font-size: 2rem;
+  }
+}

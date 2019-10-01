@@ -41,3 +41,49 @@
 .SiteName {
     margin-right: .5rem;
 }
+
+@media only screen and (max-width: 1130px) {
+    .Links a {
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .Links {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .Links {
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .Links {
+        padding: 4rem 0rem;
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 744px) {
+    .Footer {
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .Links {
+        padding: 2rem 0rem;
+        width: 100%;
+    }
+    .Logo {
+        height: 6rem;
+    }
+}
