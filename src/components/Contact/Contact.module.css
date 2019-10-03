@@ -1,0 +1,69 @@
+.Contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #22afb4;
+    padding: 4rem;
+    cursor: default;
+}
+
+.Email {
+    margin-right: 50px;
+    color: rgb(248, 248, 248);
+}
+
+.Email h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(248, 248, 248);
+}
+
+.Email p {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Form input, .Form textarea, .Form label {
+    padding: 5px;
+    margin: 3px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font: inherit;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.Form label {
+    font-size: 1.8rem;
+    color: rgb(248, 248, 248);
+}
+
+.Form button {
+    padding: 5px 20px;
+    font-size: 1.4rem;
+    margin: 3px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: rgb(204, 204, 204);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.445);
+    transition: all 250ms ease;
+}
+
+.Form button:hover {
+    background-color: rgb(174, 232, 236);
+}
+
+.Form button:active {
+    background-color: rgb(161, 223, 228);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.623);
+}

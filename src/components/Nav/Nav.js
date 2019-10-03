@@ -14,7 +14,7 @@ const Nav = () => {
     <div className={styles.Container}>
       <img className={styles.Logo} src={Logo} alt="jaredavila.com" />
       <a
-        href="/"
+        href="/JaredAvilaResume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.ResContainer}

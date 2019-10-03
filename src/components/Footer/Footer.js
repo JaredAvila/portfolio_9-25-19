@@ -27,7 +27,11 @@ const Footer = () => {
         >
           <FontAwesomeIcon className={styles.Icon} icon={faLinkedin} /> LinkedIn
         </a>
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="/JaredAvilaResume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon className={styles.Icon} icon={faScroll} /> Resume
         </a>
       </div>
