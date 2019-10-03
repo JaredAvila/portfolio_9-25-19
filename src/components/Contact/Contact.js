@@ -14,7 +14,7 @@ const Contact = () => {
       </div>
       <form
         className={styles.Form}
-        action="https://formspree.io/jay@famcoach.com"
+        action="https://formspree.io/jared.c.avila@gmail.com"
         method="POST"
       >
         <label htmlFor="name">Or fill out this form and hit 'Send'</label>
